@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-<meta name="viewport" content="width =device width initial-scale=1.01">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description"
 content="Discover about Mr pepsi"
 >
@@ -12,7 +12,7 @@ content="Discover about Mr pepsi"
      crossorigin="anonymous"></script> 
      <!-- Google tag (gtag.js) -->
  <script async src="https://www.googletagmanager.com/gtag/js?id=G-78PK6BWQ46"></script> 
-<script src="index.js">
+<script>
    window.dataLayer = window.dataLayer || [];
    function gtag(){dataLayer.push(arguments);}
    gtag('js', new Date());
@@ -86,12 +86,12 @@ content="Discover about Mr pepsi"
     <legend>Personal opinion</legend>
     <div>
     <label for="personality">What kind of person is Mr Pepsi?</label>
-    <input type="radio" name="personality" id="good">
-    <label for="personality">Good</label>
-    <input type="radio" name="personality" id="bad">
-    <label for="personality">Bad</label>
-    <input type="radio" name="personality" id="in-between">
-    <label for="personality">In between</label>
+    <input type="radio" name="personality" id="good" value="good">
+    <label for="good">Good</label>
+    <input type="radio" name="personality" id="bad" value="bad">
+    <label for="bad">Bad</label>
+    <input type="radio" name="personality" id="in-between" value="in-between">
+    <label for="in-between">In between</label>
     </div>
      <div>
     <label for="rating">How would you rate Mr Pepsi personality on a scale of 1 to 10?</label>
@@ -100,23 +100,23 @@ content="Discover about Mr pepsi"
 
      <div>
     <label for="description">How will you describe Mr Pepsi? (tick any that apply)</label>
-    <input type="checkbox" name="description" id="description">
-    <label for="description">Funny</label>
-    <input type="checkbox" name="description" id="description1">
-    <label for="description">A Werey</label>
-    <input type="checkbox" name="description" id="description2">
-    <label for="description">Caring</label>
-    <input type="checkbox" name="description" id="description3">
-    <label for="description">Non</label>
+    <input type="checkbox" name="description" id="funny" value="funny">
+    <label for="funny">Funny</label>
+    <input type="checkbox" name="description" id="werey" value="werey">
+    <label for="werey">A Werey</label>
+    <input type="checkbox" name="description" id="caring" value="caring">
+    <label for="caring">Caring</label>
+    <input type="checkbox" name="description" id="non" value="non">
+    <label for="non">Non</label>
     </div>
 
     <div>
     <label for="favourite-dish">What is Mr Pepsi favourite Dish?(select from dropdown)</label>
     <select name="favourite-dish" id="favourite-dish">
-      <option value="favourite-dish">Spagetti</option>
-      <option value="favourite-dish">Jollof Rice</option>
-      <option value="favourite-dish">Fried Rice</option>
-      <option value="favourite-dish">Macaroni</option>
+      <option value="spaghetti">Spaghetti</option>
+      <option value="jollof-rice">Jollof Rice</option>
+      <option value="fried-rice">Fried Rice</option>
+      <option value="macaroni">Macaroni</option>
     </select>
     </div>
 
