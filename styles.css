@@ -24,15 +24,11 @@ a, ul{
 }
 
 fieldset{
-   margin-left: auto;
-   margin-right: auto;
-}
-figure{
-    margin-left: auto;
-    margin-right: auto;
+    padding: 5px 2px;
+    margin:5px 2px;
 }
 
-img{
-    margin-left: auto;
-    margin-right: auto;
-    }
+figure {
+    padding: auto;
+    margin: auto;
+}
