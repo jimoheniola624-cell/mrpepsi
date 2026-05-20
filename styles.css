@@ -1,0 +1,22 @@
+body{
+    
+    background-image: url(pepsi.jpg);
+    color: aliceblue;
+}
+h1,h2, p{
+    color: aliceblue;
+    text-align: center;
+}
+
+section{
+    padding: 20px 25px 20px 25px ;
+    border: 2px solid rgb(15, 75, 255);
+    margin: 20px 50px 20px 20px;
+    background-color:rgba(227, 0, 0, 0.791);
+    color: aliceblue;
+    text-align: center;
+}
+a, ul{
+    text-align: left;
+    color: aliceblue;
+}
