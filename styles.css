@@ -2,6 +2,7 @@ body{
     
     background-image: url(pepsi.jpg);
     color: aliceblue;
+    background-attachment: fixed;
 }
 
 h1,h2, p{
