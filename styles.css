@@ -6,7 +6,7 @@ body{
 
 h1,h2, p{
     color: aliceblue;
-    text-align: left;
+    text-align: center;
 }
 
 section{
@@ -15,7 +15,7 @@ section{
     margin: 20px 2px;
     background-color:rgba(227, 0, 0, 0.791);
     color: aliceblue;
-    text-align: left;
+    text-align: center;
 }
 
 a, ul{
